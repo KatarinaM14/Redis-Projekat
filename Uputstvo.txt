@@ -1,0 +1,7 @@
+Koristili smo bazu kreiranu u redis cloud.
+
+Podaci za povezivanje na bazu:
+
+endpoint: redis-14205.c85.us-east-1-2.ec2.cloud.redislabs.com:14205
+user: default
+password: trY1iDtJ9a5UJLWL1FQwATr7hvukOfl7

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="main.js" type="module"></script>
+    <div id = "igi" class="main-block">
+        <h1>Registration</h1>
+        <form>
+          <div class="account-type">
+            <input type="radio" value="none" id="radioOne" name="account" checked/>
+            <label for="radioOne" class="radio">Korisnik</label>
+            <input type="radio" value="none" id="radioTwo" name="account" />
+            <label for="radioTwo" class="radio">Dostavljac</label>
+            <input type="radio" value="none" id="radioThree" name="account" />
+            <label for="radioThree" class="radio">Vlasnik</label>
+          </div>
+          <input type="text" name="name" id="name" placeholder="Username" required/>
+          <input type="password" name="name" id="password" placeholder="Password" required/>
+          <div id = "dugmici" class="btn-block">
+            <button id="buttonReg">Register</button>
+          </div>
+         <div class="btn-block">
+            <button id="buttonLog">Login</button>
+          </div>
+        </form>
+        
+      </div>
+      <div class="btn-block">
+        <button id = "buttonGetll">Preuzmi sve</button>
+    </div>
+      <div id = "formakorisnik" class="formakorisnik">
+        <form >
+          <label class = "labela">Ime:</label>
+          <input type="text" name="name" id="name1" required/>
+          <label class = "labela">Prezime:</label>
+          <input type="text" name="name" id="prezime1" required/>
+          <label class = "labela">Email:</label>
+          <input type="text" name="name" id="email1" required/>
+          <label class = "labela">Adresa:</label>
+          <input type="text" name="name" id="adresa1" required/>
+          <label class = "labela">Broj telefona:</label>
+          <input type="text" name="name" id="brtelefona1" required/>
+          <div id = "dugmici" class="btn-block">
+            <button id="buttonUpdate">Snimi</button>
+          </div>
+        </form>
+      </div>   
+      <div id = "formaVlasnik" class="formaVlasnik">
+        <form >
+          <label class = "labela">Ime:</label>
+          <input type="text" name="name" id="name3" required/>
+          <label class = "labela">Prezime:</label>
+          <input type="text" name="name" id="prezime3" required/>
+          <label class = "labela">Email:</label>
+          <input type="text" name="name" id="email3" required/>
+          <div id = "dugmici" class="btn-block">
+            <button id="buttonUpdate3">Snimi</button>
+          </div>
+        </form>
+      </div> 
+      <div id = "formaDodajObjekat" class="formaDodajObjekat">
+        <form >
+          <label class = "labela">Naziv:</label>
+          <input type="text" name="name" id="nazivobj" required/>
+          <div id = "divAddObj" class="btn-block">
+            <button id="buttonAddObj">Dodaj</button>
+          </div>
+          <div id = "divUpdateObj" class="btn-block">
+            <button id="buttonUpdateObj">Uredi</button>
+          </div>
+        </form>
+      </div> 
+      <div id = "formaDodajKategorija" class="formaDodajKategorija">
+        <form >
+          <label class = "labela">Naziv:</label>
+          <input type="text" name="name" id="nazivkat" required/>
+          <div id = "divAddKat" class="btn-block">
+            <button id="buttonAddKat">Dodaj</button>
+          </div>
+          <div id = "divUpdateKat" class="btn-block">
+            <button id="buttonUpdateKat">Uredi</button>
+          </div>
+        </form>
+      </div> 
+      <div id = "formaDodajProizvod" class="formaDodajProizvod">
+        <form >
+          <label class = "labela">Naziv:</label>
+          <input type="text" name="name" id="nazivpro" required/>
+          <label class = "labela">Cena:</label>
+          <input type="text" name="name" id="cenapro" required/>
+          <label class = "labela">Opis:</label>
+          <input type="text" name="name" id="opispro" required/>
+          <div id = "divAddPro" class="btn-block">
+            <button id="buttonAddPro">Dodaj</button>
+          </div>
+          <div id = "divUpdatePro" class="btn-block">
+            <button id="buttonUpdatePro">Uredi</button>
+          </div>
+        </form>
+      </div> 
+      <div id = "formadostavljac" class="formakorisnik">
+        <form >
+          <label class = "labela">Ime:</label>
+          <input type="text" name="name" id="name2" required/>
+          <label class = "labela">Prezime:</label>
+          <input type="text" name="name" id="prezime2" required/>
+          <div id = "dugmici" class="btn-block">
+            <button id="buttonUpdate2">Snimi</button>
+          </div>
+        </form>
+      </div>   
+      <div id = "pomoc">
+        <div id = "tab" class = "Tab">
+          <div id = "Izbor">
+            <button id = "buttonKorisnik">Korisnik</button>
+            <button id = "buttonDostavljac">Dostavljac</button>
+          </div>
+        </div>
+        <div id = "glavni"></div>
+        <div id = "glavni2"></div>
+        <div id = "glavni3"></div>
+      </div>  
+      <div id = "getall"></div>
+</body>
+
+</html>
